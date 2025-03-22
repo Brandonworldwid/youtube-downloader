@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.red {
+    background: none;
+    color: red;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.buttons a {
+    margin: 0 10px;
+}
+
+/* Features Section */
+.features {
+    margin: 50px 0;
+}
+
+.features h2 {
+    font-size: 32px;
+}
+
+.features p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
